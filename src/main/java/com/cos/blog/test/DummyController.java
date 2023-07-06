@@ -21,7 +21,8 @@ import com.cos.blog.model.RoleType;
 import com.cos.blog.model.User;
 import com.cos.blog.repository.UserRepository;
 
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
+
 
 @RestController
 public class DummyController {
